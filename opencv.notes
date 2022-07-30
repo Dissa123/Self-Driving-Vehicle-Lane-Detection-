@@ -1,0 +1,26 @@
+
+
+----------------------------------
+| <------------------X----------->
+|
+|
+Y
+|
+|
+------------------------------------
+#Corresponding Image
+
+[0 0 255 255]
+[0 0 255 255]
+[0 0 255 255]
+[0 0 255 255]
+#Matrix
+
+f(x,y)
+#A function of pixel intensities, in all directions,X and y
+
+derivatives (f(x,y))
+#measures adjacent changes in intensity in all directions,X and Y
+
+#---- Canny image is white and black image
+cv2.Canny(image,low_threshold,high_threshold)
